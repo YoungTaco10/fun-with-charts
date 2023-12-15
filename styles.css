@@ -1,0 +1,46 @@
+.gridContainer{
+  display: grid;
+  grid-template-areas: 
+  'header'
+  'subTitle'
+  'key1'
+  'key2'
+  'chartOne'
+  'chartTwo'
+  'chartThree';
+  gap: 10px;
+  padding: 10px;
+  background-color: black;
+}
+.gridContainer > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  font-size: 30px;
+}
+.title{
+  color: white;
+  grid-area: header;
+  text-align: center;
+}
+.chartOne{grid-area: chartOne;}
+.chartTwo{grid-area: chartTwo;}
+.chartThree{grid-area: chartThree;}
+.key1{
+  grid-area: key1;
+  text-align: center;
+  background-color: red;
+  color: white;
+}
+.key2{
+  grid-area: key2;
+  text-align: center;
+  background-color: blue;
+  color: white;
+}
+html{
+  background-color: grey;
+}
+p{
+  color: white;
+  text-align: center;
+}
