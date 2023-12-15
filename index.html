@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+   <div class="gridContainer">
+      <h1 class="title">Percentages of States(and Territories) Citizens With Certain Educational Levels</h1>
+      <p class="subTitle">As of 2020</p>
+      <div class="chartOne">
+        <h2>Percentage of Residents Who Have Received at Least a Bachelor's Degree Per State</h2>
+        <canvas id="ba"></canvas>
+      </div>  
+      <div class="chartTwo">
+        <h2>Percentage of Residents Who Have Received at Least a High School Degree Per State</h2>
+        <canvas id="hs"></canvas>
+      </div>
+      <div class="chartThree">
+        <h2>Percentage of Residents Who Have Not Received a Degree Per State</h2>
+        <canvas id="na"></canvas>
+      </div>
+      <span class="key1">Democrat Majority</span>
+      <span class="key2">Republican Majority</span>
+   </div>
+</body>
+</html>
